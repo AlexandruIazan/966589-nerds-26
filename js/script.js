@@ -13,4 +13,5 @@ modalCloseButton.addEventListener("click", function () {
 writeUsButton.addEventListener("click", function(evt) {
   evt.preventDefault();
   writeUsModal.classList.add("show-modal");
+  writeUsModal.querySelector("#write-us-name").focus();
 });
